@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -186,7 +186,7 @@
 			(pin input line
 				(at 8.89 -7.62 180)
 				(length 2.54)
-				(name "HOLD"
+				(name "~{HOLD}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -222,80 +222,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ICE40UP5K-SG48ITR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at -20.828 -53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ICE40UP5K-SG48ITR"
-			(at 10.414 -53.594 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "ICE40UP5K-SG48ITR_0_1"
-			(rectangle
-				(start -21.59 7.62)
-				(end 20.32 -52.07)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "MAX2769B"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -322,7 +248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP2.7x2.7mm"
+		(property "Footprint" "Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm"
 			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -920,7 +846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1737,7 +1663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP-32_STM"
+		(property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,7 +2514,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 10.16 0)
+			(at 0 11.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2598,7 +2524,7 @@
 			)
 		)
 		(property "Value" "TPS7A20"
-			(at 0 0 0)
+			(at 0 9.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2607,7 +2533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,27 +2581,9 @@
 		)
 		(symbol "TPS7A20_1_1"
 			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -10.16 6.35 0)
 				(length 2.54)
-				(name "Vin"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2690,10 +2598,28 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -10.16 3.81 0)
 				(length 2.54)
-				(name "Ven"
+				(name "VEN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2708,10 +2634,29 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 10.16 6.35 180)
 				(length 2.54)
-				(name "Vout"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2755,7 +2700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_WE_IQXC-26-4Pin_1.6x1.2mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2802,6 +2747,25 @@
 			)
 		)
 		(symbol "TX22-M010S_1_1"
+			(pin no_connect line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 0 -10.16 90)
 				(length 2.54)
@@ -2823,7 +2787,7 @@
 			(pin output line
 				(at 8.89 1.27 180)
 				(length 2.54)
-				(name "Out"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2841,7 +2805,7 @@
 			(pin power_in line
 				(at -8.89 1.27 0)
 				(length 2.54)
-				(name "Vdc"
+				(name "VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
