@@ -2700,7 +2700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_WE_IQXC-26-4Pin_1.6x1.2mm"
+		(property "Footprint" "Crystal:Crystal_SMD_WE_CFPX-218-4Pin_2.5x2.0mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

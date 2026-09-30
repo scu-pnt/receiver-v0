@@ -7955,24 +7955,6 @@
 				)
 			)
 			(symbol "MAX2769B_1_1"
-				(pin input line
-					(at -1.27 -19.05 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 31.75 10.16 180)
 					(length 2.54)
@@ -8470,6 +8452,24 @@
 						)
 					)
 					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -19.05 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -38689,7 +38689,7 @@
 		(pin "11"
 			(uuid "ab47acf0-6811-4a7a-a6b3-167418385e7a")
 		)
-		(pin ""
+		(pin "29"
 			(uuid "3f16ea75-06c9-420f-b300-b7610fce86ec")
 		)
 		(pin "13"
