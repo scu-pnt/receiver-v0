@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.09,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -210,7 +210,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.14986,
+        0.254
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -525,6 +527,32 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 7
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.11684,
+        "name": "100 diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.11684,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50 ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.150876,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -540,6 +568,26 @@
       {
         "netclass": "Default",
         "pattern": "/ADC_(CLK_OUT|I0|I1|Q0|Q1)"
+      },
+      {
+        "netclass": "100 diff",
+        "pattern": "/PHY_BI_DA_P"
+      },
+      {
+        "netclass": "100 diff",
+        "pattern": "/PHY_BI_D(A_N|B_N|B_P|C_N|C_P|D_N|D_P)"
+      },
+      {
+        "netclass": "50 ohm",
+        "pattern": "/ADC_(I0|I1|Q0|Q1)"
+      },
+      {
+        "netclass": "50 ohm",
+        "pattern": "/FPGA_IO3|/FPGA_IO4|/PHY_RXC|/PHY_RXCTL|/PHY_RXD0|/PHY_RXD1|/PHY_RXD2|/PHY_RXD3|/PHY_TXC|/PHY_TXCTL|/PHY_TXD0|/PHY_TXD1|/PHY_TXD2|/PHY_TXD3"
+      },
+      {
+        "netclass": "50 ohm",
+        "pattern": "/ADC_CLK_OUT|/ADC_I0|/ADC_I1|/ADC_Q0|/ADC_Q1|/FPGA_IO0|/FPGA_IO1|/FPGA_IO2"
       }
     ]
   },
@@ -709,7 +757,7 @@
         "uuid": "e09217dc-f098-45e4-973b-0967150e992c"
       }
     ],
-    "used_designators": "C25-63,D1-3,#PWR3,#PWR34-99,SW1,U3,U7-12,J2,J5,#FLG1-3,R2-44,TP19-33,Y1,JP1-6",
+    "used_designators": "C25-66,D1-3,#PWR3,#PWR34-102,SW1,U3,U7-12,J2,J5,#FLG1-3,R2-44,TP19-33,Y1,JP1-6",
     "variants": []
   },
   "sheets": [
