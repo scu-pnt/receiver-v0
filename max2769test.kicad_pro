@@ -588,6 +588,14 @@
       {
         "netclass": "50 ohm",
         "pattern": "/ADC_CLK_OUT|/ADC_I0|/ADC_I1|/ADC_Q0|/ADC_Q1|/FPGA_IO0|/FPGA_IO1|/FPGA_IO2"
+      },
+      {
+        "netclass": "50 ohm",
+        "pattern": "/LNA1_IN"
+      },
+      {
+        "netclass": "50 ohm",
+        "pattern": "/RF_IN"
       }
     ]
   },

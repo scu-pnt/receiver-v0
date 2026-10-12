@@ -12624,16 +12624,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 370.84) (xy 92.71 370.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4efbc1c7-d682-49c1-a753-062981b034d5")
-	)
-	(wire
-		(pts
 			(xy 647.7 506.73) (xy 655.32 506.73)
 		)
 		(stroke
@@ -16092,16 +16082,6 @@
 		)
 		(uuid "395e0a94-b5d6-45c7-b11b-00259ff51baf")
 	)
-	(label "PHY_MDC"
-		(at 88.9 370.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b83c6f8-4b1e-4aee-9cff-b9b9044cda57")
-	)
 	(label "ADC_I0"
 		(at 331.47 209.55 0)
 		(effects
@@ -17911,6 +17891,16 @@
 			(justify right bottom)
 		)
 		(uuid "e53b10c1-5203-429f-8af1-cfc0e21ac77a")
+	)
+	(label "RF_IN"
+		(at 40.64 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5870d60-3c8d-41d2-8d2d-7f1591d7151a")
 	)
 	(label "PHY_RXD3"
 		(at 509.27 438.15 180)
@@ -21786,7 +21776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 297.18 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -31566,7 +31556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 297.18 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -39513,7 +39503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 297.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -40066,7 +40056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 297.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -40265,85 +40255,6 @@
 			(project "max2769test"
 				(path "/e09217dc-f098-45e4-973b-0967150e992c"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.71 370.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdfc90de-4dcd-4ced-94be-1032ece69d4e")
-		(property "Reference" "TP25"
-			(at 97.79 369.5699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 97.79 372.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 92.71 375.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 375.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.71 370.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fac5062-9572-47f7-80a9-894c1b2fd01f")
-		)
-		(instances
-			(project "max2769test"
-				(path "/e09217dc-f098-45e4-973b-0967150e992c"
-					(reference "TP25")
 					(unit 1)
 				)
 			)
