@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "symbols") (type "KiCad") (uri "${KIPRJMOD}/symbols.kicad_sym") (options "") (descr ""))
+	(lib (name "FPGA_Lattice") (type "Legacy") (uri "${KIPRJMOD}/lattice-fpga-symbols/FPGA_Lattice.lib") (options "") (descr ""))
+)
