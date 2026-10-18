@@ -7908,7 +7908,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm"
+			(property "Footprint" "Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm_ThermalVias"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8506,7 +8506,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm"
+			(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -16342,7 +16342,7 @@
 		)
 		(uuid "568a342a-4917-410e-b389-16a9a86b21ff")
 	)
-	(label "EXT_SPI_COPI"
+	(label "EXT_SPI_NCS"
 		(at 43.18 68.58 0)
 		(effects
 			(font
@@ -16782,7 +16782,7 @@
 		)
 		(uuid "7640f809-669a-42f9-bbfc-1306d4529912")
 	)
-	(label "EXT_SPI_SCK"
+	(label "EXT_SPI_CIPO"
 		(at 43.18 66.04 0)
 		(effects
 			(font
@@ -17582,7 +17582,7 @@
 		)
 		(uuid "c7a96c74-dd9c-4f79-ba0d-52a694c7dab3")
 	)
-	(label "EXT_SPI_NCS"
+	(label "EXT_SPI_SCK"
 		(at 43.18 73.66 0)
 		(effects
 			(font
@@ -17632,7 +17632,7 @@
 		)
 		(uuid "cb790303-c48f-4386-aa08-b8324efd7e01")
 	)
-	(label "EXT_SPI_CIPO"
+	(label "EXT_SPI_COPI"
 		(at 43.18 71.12 0)
 		(effects
 			(font
@@ -20731,7 +20731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 300.99 392.43 0)
 			(hide yes)
 			(show_name no)
@@ -26456,7 +26456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias"
 			(at 561.34 447.04 0)
 			(hide yes)
 			(show_name no)
@@ -36921,7 +36921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 392.43 0)
 			(hide yes)
 			(show_name no)
@@ -38133,7 +38133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm"
+		(property "Footprint" "Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm_ThermalVias"
 			(at 256.54 59.69 0)
 			(hide yes)
 			(show_name no)
