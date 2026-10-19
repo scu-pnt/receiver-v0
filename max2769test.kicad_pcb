@@ -478,7 +478,7 @@
 			(at 0 -5.88 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c37bd372-0284-459b-a750-396149f003c5")
+			(uuid "0102623a-8606-445d-b8f9-aea8f199b958")
 			(effects
 				(font
 					(size 1 1)
@@ -489,7 +489,7 @@
 		(property "Value" "STM32C051K6T6"
 			(at 0 5.88 0)
 			(layer "F.Fab")
-			(uuid "a88f4e42-5b8b-4328-8e4a-acf57aa18d16")
+			(uuid "9d961dec-9321-4937-9d1c-569bfae4dc8a")
 			(effects
 				(font
 					(size 1 1)
@@ -501,7 +501,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "414ef1a0-2dc2-4f18-9149-0e2ffe70bdb9")
+			(uuid "f8c8b8b4-256d-40c9-a3b1-741d92ed705c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +512,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc824f19-0844-4669-87e9-b1cb1abbece6")
+			(uuid "6a0375d0-e9ca-4c8c-b404-0fa14fbac0a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4276,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "13eec790-691e-42b6-ab04-1901fd1ab7bb")
-		(at 141.975 168.2 180)
+		(at 114.6 108 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R35"
@@ -12445,7 +12445,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "6467e13d-857b-48a3-a79a-60ee8f41511c")
-		(at 144.7375 165.15)
+		(at 117.3625 104.95)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U11"
@@ -27099,7 +27099,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "dd4a029e-c505-490b-8252-905de8e79c92")
-		(at 140.975 165.175 -90)
+		(at 113.6 104.975 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C63"
@@ -31580,8 +31580,8 @@
 		(uuid "32e99d1c-260b-4639-b48f-6c155070d6fe")
 	)
 	(segment
-		(start 140.975 166)
-		(end 141.15 166.175)
+		(start 113.6 105.8)
+		(end 113.775 105.975)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
@@ -31604,8 +31604,8 @@
 		(uuid "3b7288cf-b715-4b69-a7e6-7268dca14585")
 	)
 	(segment
-		(start 140.975 165.95)
-		(end 141.775 165.15)
+		(start 113.6 105.75)
+		(end 114.4 104.95)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
@@ -31620,8 +31620,8 @@
 		(uuid "3ddd92a9-b19d-49b0-8de3-6fc385ab1d4e")
 	)
 	(segment
-		(start 140.975 165.95)
-		(end 140.975 166)
+		(start 113.6 105.75)
+		(end 113.6 105.8)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
@@ -32172,8 +32172,8 @@
 		(uuid "f0085fef-94e8-45ff-b85e-bacedeb1b34e")
 	)
 	(segment
-		(start 141.15 166.175)
-		(end 141.15 168.2)
+		(start 113.775 105.975)
+		(end 113.775 108)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
@@ -32260,8 +32260,8 @@
 		(uuid "fa0c697f-3f45-418c-81ae-16a2907185d5")
 	)
 	(segment
-		(start 141.775 165.15)
-		(end 143.6 165.15)
+		(start 114.4 104.95)
+		(end 116.225 104.95)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
@@ -32908,16 +32908,16 @@
 		(uuid "f8381843-9e2e-43f9-a5cd-1e31b0660199")
 	)
 	(segment
-		(start 142.8 168.2)
-		(end 142.8 166.9)
+		(start 115.425 108)
+		(end 115.425 106.7)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/FPGA_P2V85_EN")
 		(uuid "04a845c9-21e9-4e5b-b1ee-94c8b85198b5")
 	)
 	(segment
-		(start 142.8 166.9)
-		(end 143.6 166.1)
+		(start 115.425 106.7)
+		(end 116.225 105.9)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/FPGA_P2V85_EN")
@@ -33020,8 +33020,8 @@
 		(uuid "e566e42a-8057-42d5-830b-11b2ece2135d")
 	)
 	(segment
-		(start 140.975 164.4)
-		(end 143.4 164.4)
+		(start 113.6 104.2)
+		(end 116.025 104.2)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/P2V85_D")
@@ -33036,8 +33036,8 @@
 		(uuid "f5eeff1b-a6b3-4112-b42e-83c465c111c5")
 	)
 	(segment
-		(start 143.4 164.4)
-		(end 143.6 164.2)
+		(start 116.025 104.2)
+		(end 116.225 104)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/P2V85_D")
