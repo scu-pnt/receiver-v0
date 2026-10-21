@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -562,8 +559,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -781,7 +778,7 @@
         "uuid": "e09217dc-f098-45e4-973b-0967150e992c"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR3,#PWR34-102,C25-67,D1-3,H1-4,J2,J5-6,JP1-6,R2-45,SW1,TP19-35,U3,U7-12,Y1",
+    "used_designators": "J2,J5-6,#FLG1-3,R2-45,#PWR3,#PWR34-102,D1-3,C25-67,H1-4,JP1-6,SW1,TP19-35,U3,U7-12,Y1",
     "variants": []
   },
   "sheets": [
