@@ -39,8 +39,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
+          "drill": 0.0,
+          "height": 3.2,
           "width": 1.27
         },
         "silk_line_width": 0.1,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.254,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -535,9 +535,18 @@
         "diff_pair_width": 0.11684,
         "name": "100 diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11684,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.254,
+        "name": "50 cpwg",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.149352,
         "tuning_profile": ""
       },
       {
@@ -546,9 +555,9 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "50 ohm",
+        "name": "50 microstrip",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.150876,
         "tuning_profile": "",
@@ -563,52 +572,32 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "/PHY_(RXC|RXCTL|RXD0|RXD1|RXD2|RXD3|TXC|TXCTL|TXD0|TXD1|TXD2|TXD3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/ADC_(CLK_OUT|I0|I1|Q0|Q1)"
-      },
-      {
-        "netclass": "100 diff",
-        "pattern": "/PHY_BI_DA_P"
-      },
-      {
-        "netclass": "100 diff",
-        "pattern": "/PHY_BI_D(A_N|B_N|B_P|C_N|C_P|D_N|D_P)"
-      },
-      {
-        "netclass": "50 ohm",
-        "pattern": "/ADC_(I0|I1|Q0|Q1)"
-      },
-      {
-        "netclass": "50 ohm",
-        "pattern": "/FPGA_IO3|/FPGA_IO4|/PHY_RXC|/PHY_RXCTL|/PHY_RXD0|/PHY_RXD1|/PHY_RXD2|/PHY_RXD3|/PHY_TXC|/PHY_TXCTL|/PHY_TXD0|/PHY_TXD1|/PHY_TXD2|/PHY_TXD3"
-      },
-      {
-        "netclass": "50 ohm",
-        "pattern": "/ADC_CLK_OUT|/ADC_I0|/ADC_I1|/ADC_Q0|/ADC_Q1|/FPGA_IO0|/FPGA_IO1|/FPGA_IO2"
-      },
-      {
-        "netclass": "50 ohm",
-        "pattern": "/LNA1_IN"
-      },
-      {
-        "netclass": "50 ohm",
+        "netclass": "50 cpwg",
         "pattern": "/RF_IN"
       },
       {
-        "netclass": "50 ohm",
+        "netclass": "50 microstrip",
+        "pattern": "/LNA1_IN"
+      },
+      {
+        "netclass": "50 microstrip",
+        "pattern": "/ADC_(I0|I1|Q0|Q1)"
+      },
+      {
+        "netclass": "50 microstrip",
         "pattern": "/ADC_CLK_OUT"
       },
       {
-        "netclass": "50 ohm",
-        "pattern": "/ADC_(CLK_OUT|I0|I1|Q0|Q1)"
+        "netclass": "50 microstrip",
+        "pattern": "/LNAOUT_MIXIN"
       },
       {
-        "netclass": "50 ohm",
-        "pattern": "/LNAOUT_MIXIN"
+        "netclass": "100 diff",
+        "pattern": "/PHY_BI_D(A_N|A_P|B_N|B_P|C_N|C_P|D_N|D_P)"
+      },
+      {
+        "netclass": "50 microstrip",
+        "pattern": "/PHY_(RXC|RXCTL|RXD0|RXD1|RXD2|RXD3|TXC|TXCTL|TXD0|TXD1|TXD2|TXD3)"
       }
     ]
   },
