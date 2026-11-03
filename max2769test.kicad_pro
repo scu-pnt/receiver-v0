@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.2,
-          "width": 1.27
+          "height": 3.7,
+          "width": 1.35
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -606,7 +606,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
