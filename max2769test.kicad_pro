@@ -612,6 +612,10 @@
       {
         "netclass": "50 ohm",
         "pattern": "/LNAOUT_MIXIN"
+      },
+      {
+        "netclass": "50 ohm",
+        "pattern": "/LNAOUT"
       }
     ]
   },

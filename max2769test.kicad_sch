@@ -17779,6 +17779,16 @@
 		)
 		(uuid "ecb2fa0c-1677-4e38-a83d-6189ad0376f5")
 	)
+	(label "LNAOUT"
+		(at 294.64 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ece3c6bd-558d-457e-bc8c-51dc8d4d83fc")
+	)
 	(label "ICE40_SPI_SS"
 		(at 600.71 269.24 0)
 		(effects
